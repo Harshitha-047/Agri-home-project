@@ -1,0 +1,48 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+nav{
+    margin-left: 800px;
+    display:flex;
+    gap: 10%;
+}
+a:link{
+    color: darkgreen;
+}
+a:visited{
+    color:rgb(30, 58, 1);
+}
+a:hover{
+    color: rgb(132, 208, 55);
+}
+.rows{
+    display:flex;
+    gap:20px;
+}
+.box1,.box2,.box3,.box4{
+    border:1px solid gray;
+    margin-bottom:3%;
+    width: 650px;
+    height: 650px;
+    border-radius: 20px;
+    
+}
+figure img{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50px;
+    
+
+}
+img+figcaption{
+    margin-top: 10px;
+}
+.buttons{
+    color: azure;
+    background-color: darkgreen;
+    margin-left: 250px;
+}
